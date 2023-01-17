@@ -1,6 +1,6 @@
 create database archprep;
-grant all privileges on database archprep to yourownusername;
-alter database archprep owner to yourownusername;
+grant all privileges on database archprep to postgres;
+alter database archprep owner to postgres;
 \c archprep
 create schema cleansed;
 create schema staged;
